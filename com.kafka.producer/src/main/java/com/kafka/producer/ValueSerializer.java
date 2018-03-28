@@ -22,7 +22,7 @@ public class ValueSerializer implements Serializer<Message>
     {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] bytes = null;
-        try (ObjectOutput out = new ObjectOutputStream(bos);)
+        try (ObjectOutput out = new ObjectOutputStream(bos))
         {
             out.writeObject(data);
             out.flush();
