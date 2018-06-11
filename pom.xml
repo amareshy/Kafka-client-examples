@@ -34,6 +34,6 @@
 	<modules>
 		<module>com.kafka.producer</module>
 		<module>com.kafka.consumer</module>
-    	<module>com.kafka.avroexamples</module>
+    	<module>com.kafka.avroschema</module>
   </modules>
 </project>
