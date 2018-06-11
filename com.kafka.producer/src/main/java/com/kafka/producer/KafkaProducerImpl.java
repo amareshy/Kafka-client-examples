@@ -14,6 +14,8 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 
+import com.avro.generated.Employee;
+
 public class KafkaProducerImpl implements EventProducer
 {
 
@@ -93,4 +95,10 @@ public class KafkaProducerImpl implements EventProducer
         }
 
     }
+
+	@Override
+	public void send(String key, Employee msg) {
+		// TODO Not getting used
+		
+	}
 }
