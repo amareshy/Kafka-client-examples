@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.compiler>1.8</java.compiler>
         <org.apache.servicemix.bundles.kafka-clients.version>1.0.0_2</org.apache.servicemix.bundles.kafka-clients.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.11.3</avro.version>
     </properties>
 
     <dependencies>
